@@ -1,0 +1,5 @@
+url: https://github.com/shambhu112/dprofile
+
+template:
+  params:
+    bootswatch: cosmo

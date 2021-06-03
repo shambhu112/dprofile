@@ -59,7 +59,12 @@ covrpage::covrpage()
 ## service for your application
 ## 
 ## (You'll need GitHub there)
-usethis::use_github()
+
+usethis::use_git_remote("origin", url = "https://github.com/shambhu112/dprofile", overwrite = TRUE)
+
+#usethis::use_github()
+
+usethis::use_pkgdown_github_pages()
 
 # GitHub Actions
 usethis::use_github_action() 
